@@ -1,7 +1,7 @@
 # Driver-drowsiness-detection-
 Driver drowsiness detection is a car safety technology which helps prevent accidents caused by the driver getting drowsy.
 
-Core Steps in a Drowsiness Detection System
+Core Steps in a Drowsiness Detection System :
 Image/Video Acquisition: A camera (often near-infrared) mounted on the dashboard continuously captures video of the driver's face.
 Face and Landmark Detection: Using tools like OpenCV and dlib, the system identifies the face in each frame and locates key landmarks, particularly the eyes and mouth.
 Feature Extraction & Eye Tracking: The system calculates the Eye Aspect Ratio (EAR) to determine if eyes are open or closed, and monitors for frequent yawning or head drooping.
